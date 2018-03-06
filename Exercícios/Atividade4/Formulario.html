@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body background="background.jpg" style="text-align: center">
+
+    <h1 style="text-align: center">Formulário de Cadastro</h1>
+
+    <form action="cadastrar.html" method=GET target="_blank">
+
+        Nome: <br>
+        <input type="text" name="nome"><br>
+
+        E-mail: <br>
+        <input type="email" name="email"><br>
+
+        Idade: <br>
+        <input type="number" min="18" name="idade"><br>
+
+        Senha: <br>
+        <input type="password" name="senha" minlength="8"><br>
+
+        Sexo: <br>
+        <input type="radio" name="sexo" value="Masculino"> M
+        <input type="radio" name="sexo" value="Feminino"> F <br>
+
+        Observações: <br>
+        <textarea name="obs" value="observacao"></textarea><br>
+
+        Pais: <br>
+        <input type="text" value="Brasil" disabled><br>
+
+        Estado: <br>
+        <select>
+            <option value="CE">CE</option>
+            <option value="PI">PI</option>
+            <option value="MA">MA</option>
+            <option value="BH">BH</option>
+        </select><br>
+
+        Permissão: <br>
+        <input type="checkbox" name="permissao1" value="admin"> Admin
+        <input type="checkbox" name="permissao2" value="user"> User
+        <input type="checkbox" name="permissao3" value="Guest"> Guest<br>
+
+        Cor preferida: <br>
+        <input type="color" name="cor"><br><br>
+
+        <input type="hidden" name="cod" value="127"><br>
+
+        Data: <br>
+        <input type="date" name="hoje"><br>
+
+        <hr>
+
+        <input type="submit" value="Salvar"><br>
+
+    </form>
+
+</body>
+</html>
