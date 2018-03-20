@@ -1,0 +1,11 @@
+form input{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form{
+    font: normal 15px "Open Sans";
+}
+
