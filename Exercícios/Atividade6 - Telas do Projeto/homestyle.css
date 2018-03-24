@@ -1,0 +1,177 @@
+/*stylesheet caixa de menus*/
+
+#menu-box{
+    background-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.div{
+
+    height: 50px;
+    border-radius: 5px;
+    float: right;
+}
+
+#menu-box-label1{
+    width: 12%;
+
+}
+
+#menu-box-label2{
+    width: 12%;
+
+}
+
+#menu-box-label3{
+    width: 30%;
+
+}
+
+#menu-box-label4{
+    width: 46%;
+}
+
+
+#menu-login{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    text-shadow: 0px 1px 1px white;
+    font: bold 15px/50px "Open Sans";
+    color: #555555;
+}
+
+#menu-login:hover{
+    border-bottom: 5px solid #CC0000;
+    cursor: pointer;
+}
+
+#menu-registrar{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    text-shadow: 0px 1px 1px white;
+    font: bold 15px/50px "Open Sans";
+    color: #555555;
+}
+
+#menu-registrar:hover{
+    border-bottom: 5px solid #CC0000;
+    cursor: pointer;
+}
+
+#menu-buscar{
+
+    width: 85%;
+    height: 35px;
+    text-align: left;
+    text-shadow: 0px 1px 1px white;
+    font: bold 12px/50px "Open Sans";
+    color: #AAAAAA;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1px #777777;
+    outline: none;
+    padding-left: 25px;
+}
+
+#logo{
+    background-color: white;
+    width: 60px;
+    height: 90px;
+    margin-left: 70px;
+    box-shadow: 1px 1px 2px #555555;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: -1px;
+}
+
+#titulo{
+    font: bold 18px/15px "Open Sans";
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: blue;
+}
+
+/* link selecionado */
+a:active {
+    color: red;
+}
+
+/*stylesheet barra lateral esquerda*/
+
+#campi{
+    font: bold 16px "Open Sans";
+    text-align: center;
+    margin-left: 60px;
+}
+
+#submenu{
+    margin-top: 120px;
+    width: 170px;
+    height: 600px;
+    border-right: 1px solid grey;
+    font: bold 12px "Open Sans";
+    color: #006600;
+    text-decoration: none;
+}
+
+
+/*Barra de anuncios*/
+
+
+#anuncio{
+    width: 170px;
+    height: 600px;
+    float: right;
+    margin-top: -600px;
+    border-left: 1px solid grey;
+    font: bold 12px "Open Sans";
+    color: #006600;
+}
+
+#aunciar{
+    font: bold 16px "Open Sans";
+    text-align: center;
+    margin-left: 50px;
+}
+
+#inicio{
+    position: absolute;
+    float: top;
+    margin-top: -600px;
+    margin-left: 195px;
+}
+
+
+
+
+/*Rodapé*/
+
+#rodape{
+    color: white;
+    background-color: black;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+
