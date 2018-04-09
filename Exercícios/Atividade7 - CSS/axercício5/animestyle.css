@@ -1,0 +1,23 @@
+﻿body{
+	background-color: darkseagreen;
+}
+
+#animestyle{
+	width: 20em;
+	height: 15em;
+	background-color: ghostwhite;
+	box-shadow: 1em 1em 0.5em #00000066;
+	margin-left: 50em;
+	margin-top: 5em;
+	transform: rotate(-10deg);
+	animation-name: cor;
+	animation-duration: 4s;
+	
+}
+
+@keyframes cor{
+
+	from{background-color: red;}
+	to{backgroundcolor: grey;}
+	
+}

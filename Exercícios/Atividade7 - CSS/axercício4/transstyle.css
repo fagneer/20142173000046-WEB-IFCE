@@ -1,0 +1,15 @@
+﻿body{
+	background-color: darkseagreen;
+}
+
+#transtyle{
+	width: 20em;
+	height: 15em;
+	background-color: ghostwhite;
+	box-shadow: 1em 1em 0.5em #00000066;
+	margin-left: 50em;
+	margin-top: 5em;
+	transform: rotate(-10deg);
+	transition: width 2s;
+	-webkit.transition: width 2s;
+}
